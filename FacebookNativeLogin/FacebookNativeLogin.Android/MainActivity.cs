@@ -31,8 +31,8 @@ namespace FacebookNativeLogin.Droid
 
             base.OnCreate(bundle);
 
-            FacebookSdk.ApplicationId = "176117576164628";
-            FacebookSdk.ApplicationName = "Pluride";
+            FacebookSdk.ApplicationId = "FACEBOOK_ID";
+            FacebookSdk.ApplicationName = "FACEBOOK_APP_NAME";
             FacebookSdk.SdkInitialize(this);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());

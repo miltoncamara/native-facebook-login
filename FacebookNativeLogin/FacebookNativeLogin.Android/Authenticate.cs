@@ -74,7 +74,6 @@ namespace FacebookNativeLogin.Droid
 
         public async Task<List<FacebookFriend>> GetFriendsList()
         {
-            // UserProfile userProfile;
             if (AccessToken.CurrentAccessToken == null || string.IsNullOrEmpty(AccessToken.CurrentAccessToken.UserId))
                 return null;
             var facebookFriend = new List<FacebookFriend>();
